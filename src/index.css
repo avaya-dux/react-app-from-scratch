@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+  }
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
